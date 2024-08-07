@@ -23,14 +23,16 @@ If you're a new to the templates and the _ConnectorGeneratorISEAddOn_ refer to t
 
 ### Installation
 
-1. Create a new _Windows PowerShell ISE_ profile by executing the code pasted below:
+1. Open the _ISE_.
+
+2. Create a new _Windows PowerShell ISE_ profile by executing the code pasted below:
 
 ```powershell
 if (!(Test-Path -Path $PROFILE ))
 { New-Item -Type File -Path $PROFILE -Force }
 ```
 
-2. Download (or copy) the contents of the `ConnectorGeneratorISEAddOn.ps1` file and add them to your Windows PowerShell ISE profile located in: `C:\Users\{username}\Documents\WindowsPowerShell\Microsoft.PowerShellISE_profile.ps1`
+3. Download (or copy) the contents of the `ConnectorGeneratorISEAddOn.ps1` file and add them to your Windows PowerShell ISE profile located in: `C:\Users\{username}\Documents\WindowsPowerShell\Microsoft.PowerShellISE_profile.ps1`
 
 > [!NOTE]
 > If you are using _OneDrive_, this file may be located in your _OneDrive_ in the `Documents` folder.
